@@ -1,1 +1,0 @@
-# Trabalho-do-wesley-2024

@@ -1,0 +1,100 @@
+html <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bem-vindo a pagina do GTA V</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="cabeçario">
+    <div class="menu">
+      <nav class="skew-menu">
+        <ul><<
+          <li><a class="active" href="#conteudo">INFO GTA</a></li>
+          <li><a href="#como">COMO JOGAR</a></li>
+          <li><a href="#onde">ONDE JOGAR</a></li>
+          <li><a href="#et">ESPECIFICAÇÕES TÉCNICAS</a></li>
+          <li><a href="#rodape">FEITO</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div><br>
+
+  <div id="conteudo" class="principal">
+    <h1>Bem-vindo a página <div id="nome"> GTA V
+    </h1>
+    <div class="subtitulo">
+      <h2> <img src="https://files.tecnoblog.net/wp-content/uploads/2020/03/gta-v-e1610482062885-1060x595.jpg" alt="Descrição da Imagem"width="350px"height="190px">
+      </h2>
+    </div>
+    <button class="planos">Segundo o Guinness, GTA 5 quebrou sete recordes, seis deles novos e mais o recorde de trailer mais visto para um jogo de ação / aventura. Os recordes envolvem, em sua maioria, dados sobre o volume de vendas do título, como o produto de entretenimento a mais rápido arrecadar US$ 1 bilhão.</button>
+  </div>
+
+  <div id="como" class="segundo">
+    <div class="imagem"></div>
+    <h1>Como joga <div id="nome"> GTA V?</div>
+    </h1>
+    <div class="explicação"> Renovando o estilo de jogo da franquia, GTA V cria uma trama centrada em assaltos a banco, mas deixa o jogador livre para explorar totalmente Los Santos. Não é apenas nesse ponto que o game inova; ele permite que cada personagem siga com sua vida enquanto o jogador está no comando de um de seus companheiros.
+      <h2>
+      </h2>
+    </div>
+  </div>
+
+
+
+
+  <div id="onde" class="vc">
+    <div id="dg"> <img src="https://articles-images.sftcdn.net/wp-content/uploads/sites/7/2013/07/franklinheader.jpg" alt=""></div>
+    <h1>Em que dispositivos posso jogar GTA V?</h1>
+    <div class="cont">
+      <div class="pq">Pc: Sistema operacional: Windows 10 64 bits.
+Processador: Intel Core i5 3470 de 3,2 GHz (4 CPUs) / AMD X8 FX-8350 de 4 GHz (8 CPUs).</div>
+      <div class="pq">Console:
+        O GTA 5, por exemplo, está disponível no Game Pass e é possível acessar via Xbox Cloud Gaming. Com o Steam Link também é possível jogar a versão de PC em um celular, além da função Remote Play do PS4 e PS5.
+      </div>
+    </div>
+  </div>
+
+
+  </section>
+  <DIV class="DUV">
+   
+  </DIV>
+
+
+  <div id="rodape"><footer>
+    <p>&copy; 2024 TRABALHO DE JOGOS DIGITAIS<br><br>
+            TRANALHO DE DOUGLAS.<br>
+            TURMA: 3 A TDS<br>
+            NÚMERO: 05<br>
+           TEMA ESCOLHIDO: GTA V<br>
+ </p>
+
+  </footer>
+  <script>
+    const toggleButtons = document.querySelectorAll('.toggle-button');
+
+        toggleButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const answer = button.previousElementSibling;
+                if (answer.style.display === 'none' || answer.style.display === '') {
+                    answer.style.display = 'block';
+                    button.textContent = '-';
+                } else {
+                    answer.style.display = 'none';
+                    button.textContent = '+';
+                }
+            });
+        });
+  </script>
+
+
+</body>
+
+</html>
+
